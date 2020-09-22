@@ -3,13 +3,25 @@ img {
 }
 
 .img1 {
+  z-index: 2;
 }
 
 .img2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }
 
 .img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .img4 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
